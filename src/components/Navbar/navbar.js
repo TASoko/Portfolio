@@ -1,5 +1,5 @@
 import React from "react";
-import Navtitles from "./Navtitles";
+import Navtitles from "../Navtitles/Navtitles";
 
 function Navbar (){
     return (
