@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/home";
+import About from "./pages/about";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
   return (
     <div>
-      <Home />
+      <About/>
     </div>
   );
 }
