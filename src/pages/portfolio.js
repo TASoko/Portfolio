@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar/navbar"
 function Portfolio (){
     return (
         <div>
-            <Navbar />
             <ProjectCard />
         </div>
     )

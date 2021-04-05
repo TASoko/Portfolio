@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Project Give Back",
+        "media": "",
+        "description":"The purpose of Project-Give-Back is to provide information to consumers about the fast fashion industry's impact and the effects it has on our environment. This site provides consumers with companies in fast fashion that are trying to minimizes their damage.",
+        "languages": "HTML, Javascript, CSS"
+    },
+      {
+        "id": 2,
+        "name": "Password Generator",
+        "media": "",
+        "description":"This website is a password generator that can be used by anyone who wants to randomly generate a password. The project successfully allows a user to generate a random password that meets their criteria. It offers 8 - 128 characters, upper and lower case letters, numbers and special characters. Once the specifications are chosen the password will display in the text box.",
+        "languages": "HTML, Javascript, CSS"
+    },
+      {
+        "id": 3,
+        "name": "Work Day Planner",
+        "media": "",
+        "description":"The purpose of this assingment was to create a simple calendar application that allows a user to save events for each hour of the day. The app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.The colours of the time slots change according to the past, present and future hours.",
+        "languages": "HTML, Javascript, CSS"
+    },
+      {
+        "id": 4,
+        "name": "Eat Da Burger",
+        "media": "",
+        "description":"The purpose of this assingment was to create an application where a user can create, devour and delete a burger. This app utilized the full aspect of MVC.",
+        "languages": "Handlebars, Javascript, CSS"
+    }
+]
