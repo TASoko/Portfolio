@@ -1,19 +1,46 @@
 import React from "react";
+import { projects } from "../../projects"
 import "./style.css";
 
-function Projects(props) {
-  return (
-    <div className="card">
-    {/* <img src={props.media} alt={props.name}/> */}
-    <div className="card-body">
-      <h5 className="card-title">{props.name}</h5>
-      <p className="card-text">{props.description}</p>
-    </div>
-    <div className="card-body">
-      <a href={props.github} target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
-      <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="card-link">Deployed Link</a>
-    </div>
-  </div>
+function Projects() {
+  
+  return projects.map((project) => {
+    return (
+      <div className="card">
+        <img src={project.media} alt={project.name} />
+        <div className="card-body">
+          <h5 className="card-title">{project.name}</h5>
+          <p className="card-text">{project.description}</p>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className="card-body">
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-link"
+          >
+            Github
+          </a>
+          <a
+            href={project.deployed}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-link"
+          >
+            Deployed Link
+          </a>
+        </div>
+      </div>
+    );
+  }
   );
 }
 

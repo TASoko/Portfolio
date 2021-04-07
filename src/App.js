@@ -19,18 +19,7 @@ class App extends Component {
         {/* <Route exact path="/" component={About} />
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact}/> */}
-        {this.state.projects.map((project) => (
-          <Portfolio
-            id={project.id}
-            key={project.id}
-            name={project.name}
-            media={project.media}
-            description={project.description}
-            languages={project.languages}
-            github={project.github}
-            deployed={project.deployed}
-          />
-        ))}
+          <Portfolio/>
       </div>
     // </Router>
   );
