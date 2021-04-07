@@ -15,11 +15,11 @@ class App extends Component {
   };
   render () {
   return (
-    <Router>
+    <Router basemname={`/${process.env.PUBLIC_URL}`}>
       <div className="main">
         <Route exact path="/Portfolio/" component={About} />
         <Route exact path="/Portfolio/Portfolio" component={Portfolio} />
-        <Route exact path="/Portfolio/Contact" component={Contact}/>
+        <Route exact path="/Portfolio/Contact" component={Contact} />
       </div>
     </Router>
   );
