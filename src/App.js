@@ -6,6 +6,7 @@ import projects from "./projects.json";
 import Portfolio from "./pages/portfolio";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from "./pages/contact"
+import Navbar from "../src/components/Navbar/navbar"
 
 
 class App extends Component {
@@ -14,15 +15,14 @@ class App extends Component {
   };
   render () {
   return (
-    // <Router>
+    <Router>
       <div className="main">
-        {/* <Route exact path="/" component={About} />
+        <Route exact path="/" component={About} />
         <Route exact path="/Portfolio" component={Portfolio} />
-        <Route exact path="/Contact" component={Contact}/> */}
+        <Route exact path="/Contact" component={Contact}/>
         <About />
-          <Portfolio/>
       </div>
-    // </Router>
+    </Router>
   );
   }
 }

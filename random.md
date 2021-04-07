@@ -54,3 +54,19 @@
         </ul>
       </div>
     </div>
+
+    Hi my name is Thokozile Soko. I am a certified full stack web
+              developer with focus on UI/UX and mobile app development. I’m New
+              York City based. I’m currently an analyst at a NYC startup.
+
+
+                      <Card className="text-center">
+          <Card.Body>
+            <Card.Title>Freelance Full Stack Web Developer</Card.Title>
+            <Card.Text>
+              Hi my name is Thokozile Soko. I am a certified full stack web
+              developer with focus on UI/UX and mobile app development. I’m New
+              York City based. I’m currently an analyst at a NYC startup.{" "}
+            </Card.Text>
+          </Card.Body>
+        </Card>
