@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import projects from "./projects.json";
 import Portfolio from "./pages/portfolio";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Contact from "./pages/contact"
 
 
 class App extends Component {
@@ -13,8 +14,11 @@ class App extends Component {
   };
   render () {
   return (
+    // <Router>
       <div className="main">
-        {/* <About /> */}
+        {/* <Route exact path="/" component={About} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+        <Route exact path="/Contact" component={Contact}/> */}
         {this.state.projects.map((project) => (
           <Portfolio
             id={project.id}
@@ -23,9 +27,12 @@ class App extends Component {
             media={project.media}
             description={project.description}
             languages={project.languages}
+            github={project.github}
+            deployed={project.deployed}
           />
         ))}
       </div>
+    // </Router>
   );
   }
 }

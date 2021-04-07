@@ -4,23 +4,16 @@ import "./style.css";
 function Projects(props) {
   return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.media} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Project Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Description:</strong> {props.description}
-          </li>
-          <li>
-            <strong>Languages:</strong> {props.languages}
-          </li>
-        </ul>
-      </div>
+    {/* <img src={props.media} alt={props.name}/> */}
+    <div className="card-body">
+      <h5 className="card-title">{props.name}</h5>
+      <p className="card-text">{props.description}</p>
     </div>
+    <div className="card-body">
+      <a href={props.github} target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
+      <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="card-link">Deployed Link</a>
+    </div>
+  </div>
   );
 }
 
