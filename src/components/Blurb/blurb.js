@@ -8,9 +8,6 @@ function Blurb () {
     return (
       <div className="blurb">
         <BlurbTitle />
-      <BlurbContact />
-        <BlurbCard />
-
       </div>
     );
 }

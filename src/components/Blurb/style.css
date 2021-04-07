@@ -7,3 +7,16 @@ h2 {
 body{
     background-color: #DFF09D;
 }
+/*Below is the CSS for the About Page*/
+header {
+    font-size: 60px;
+    padding:50px;
+}
+#wrapper {
+    padding-left: 60px;
+    padding-top: 70px;
+}
+.col-9 {
+  height: 600px;
+  font-family: 'Times New Roman', Times, serif;
+}
