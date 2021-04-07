@@ -5,7 +5,7 @@ import Headshot from "../Headshot/headshot";
 function BlurbContact () {
     return (
       <div>
-          <div className="col-md-4">
+          <div className="col-md-7">
             <Headshot />
             <h6>Thokozile Soko</h6>
             <h6>thokozile.soko@com</h6>
