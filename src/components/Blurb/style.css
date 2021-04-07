@@ -1,5 +1,5 @@
 h2 {
-    color:#1C4648
+    color:#99B27F
 }
 .card-body{
     float: left;
@@ -19,4 +19,16 @@ header {
 .col-9 {
   height: 600px;
   font-family: 'Times New Roman', Times, serif;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+.col-md-7 {
+    float:right
+}
+.backdrop{
+    background-color: #99B27F;
+}
+.btn {
+    background-color:#295E62;
 }
