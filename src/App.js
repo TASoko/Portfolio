@@ -13,7 +13,6 @@ class App extends Component {
   };
   render () {
   return (
-    <Router>
       <div className="main">
         {/* <About /> */}
         {this.state.projects.map((project) => (
@@ -27,7 +26,6 @@ class App extends Component {
           />
         ))}
       </div>
-    </Router>
   );
   }
 }
