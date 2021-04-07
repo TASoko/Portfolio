@@ -5,12 +5,9 @@ function BlurbCard() {
   return (
     <div>
       <p>
-        My name is Thokozile Soko and I am currently an analyst at Phi Networks
-        Group. Phi, as we call it, is a startup that helps startups raise
-        capital and find talent. My role includes market research, brand and
-        operational management. I ended up in the startup space after graduating
-        May 2020 with a BA in economics. I'm currently transitioning career
-        paths and moving into web development.
+        Hi my name is Thokozile Soko. I am a certified full stack web developer
+        with a focus on UI/UX and mobile app development. I’m New York City based.
+        Currently working as an analyst at a NYC startup. The startup helps other startups raise capital and find talent.
       </p>
       <button type="button" class="btn btn-light git">
         <a
