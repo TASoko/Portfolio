@@ -24,18 +24,18 @@ function Navbar (){
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="/Portfolio/">
+                  <a className="nav-link" href="/">
                     Home
                   </a>{" "}
                   <span className="sr-only">(current)</span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Portfolio/Contact">
+                  <a className="nav-link" href="/Contact">
                     Contact
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Portfolio/Portfolio">
+                  <a className="nav-link" href="/Portfolio">
                     Portfolio
                   </a>
                 </li>
