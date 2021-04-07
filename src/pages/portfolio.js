@@ -10,8 +10,6 @@ function Portfolio (){
         <br></br>
         <h1>Portfolio</h1>
         <ProjectCard />
-
-        <Footer />
       </div>
     );
 }
